@@ -1,0 +1,361 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETCoreApp,Version=v3.1": {
+      "FluentMigrator": {
+        "type": "Direct",
+        "requested": "[3.2.6, )",
+        "resolved": "3.2.6",
+        "contentHash": "baQWNOHYmwXKojcHoNoCluwktnIx9AbdP8IQtLI1oHUe2yAuCKYYqVPqGoqQFkaFRDlip9xAPgRmzZqY2YFgNQ==",
+        "dependencies": {
+          "FluentMigrator.Abstractions": "3.2.6",
+          "Microsoft.Extensions.DependencyInjection": "2.0.0",
+          "Microsoft.Extensions.Options": "2.0.1"
+        }
+      },
+      "FluentMigrator.Runner": {
+        "type": "Direct",
+        "requested": "[3.2.6, )",
+        "resolved": "3.2.6",
+        "contentHash": "iymYi8UUtJhXdMzCZtNlvsJWBeBqo0RFodJ0S5DER+/A4AqYp53NdrMm5pEstusGlcbhEVugZJx3iJVgTyCxkQ==",
+        "dependencies": {
+          "FluentMigrator": "3.2.6",
+          "FluentMigrator.Runner.Core": "3.2.6",
+          "FluentMigrator.Runner.Db2": "3.2.6",
+          "FluentMigrator.Runner.Firebird": "3.2.6",
+          "FluentMigrator.Runner.Hana": "3.2.6",
+          "FluentMigrator.Runner.MySql": "3.2.6",
+          "FluentMigrator.Runner.Oracle": "3.2.6",
+          "FluentMigrator.Runner.Postgres": "3.2.6",
+          "FluentMigrator.Runner.Redshift": "3.2.6",
+          "FluentMigrator.Runner.SQLite": "3.2.6",
+          "FluentMigrator.Runner.SqlAnywhere": "3.2.6",
+          "FluentMigrator.Runner.SqlServer": "3.2.6",
+          "FluentMigrator.Runner.SqlServerCe": "3.2.6",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.1",
+          "Microsoft.Extensions.Logging": "2.0.1"
+        }
+      },
+      "Npgsql": {
+        "type": "Direct",
+        "requested": "[5.0.4, )",
+        "resolved": "5.0.4",
+        "contentHash": "wuJUsrhOKaR41ZB9Ecw9ZEpQzMQ5bRahl7w+pt4noVMDkDPbw4cMHV8UfNKeZSPLXaN4yWXPR2QgJ+2vG/85VQ==",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
+        }
+      },
+      "System.CommandLine": {
+        "type": "Direct",
+        "requested": "[2.0.0-beta1.20214.1, )",
+        "resolved": "2.0.0-beta1.20214.1",
+        "contentHash": "Hs/3ghb1nRw6Z3hiZO9mLH05JngTq15e1Dnf8g63KWv+EDBDNVx3G6zArorpSNae9wJjJ2JXJazaJn9q+HiCRg==",
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.1",
+          "system.memory": "4.5.3"
+        }
+      },
+      "FluentMigrator.Abstractions": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "oV+wmkPaMtaPMlIYfWZ6G1/HEyl1R/fJ2j2t8ir01svDO8XCre5bBx+AeZqtlkZgWSGOVvm7JWiiD23a3D0knQ==",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1",
+          "System.ValueTuple": "4.4.0"
+        }
+      },
+      "FluentMigrator.Extensions.Oracle": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "7XHo6agmOn9soLK6DSc6Y4WeXIw3i++3sU/vhzlYhoF2kY5kOzJlWx9OuD6QgXV6YGeIJhYXMHcxSWXGZ25PNA==",
+        "dependencies": {
+          "FluentMigrator.Abstractions": "3.2.6"
+        }
+      },
+      "FluentMigrator.Extensions.SqlAnywhere": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "LBbrjd0+ic2ZESbI6pTwbUjyiseYR8tUYoYB4WQFu0a3SPXqzk3CZfa0WVjoCs9URHs/Uq1xtsEsfgg2wFLUjg==",
+        "dependencies": {
+          "FluentMigrator.Abstractions": "3.2.6"
+        }
+      },
+      "FluentMigrator.Extensions.SqlServer": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "jYwx/XP79fqUanIePzaqfT1hoLQI2/d+6grGfxw4UKjTyQ+C30KvvPnwoZtfILSzyYpmsyBSVigUALeEqEF4+Q==",
+        "dependencies": {
+          "FluentMigrator.Abstractions": "3.2.6"
+        }
+      },
+      "FluentMigrator.Runner.Core": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "gjO8k7fRIKerFaePhrywO0jR1x1Xbl/5xsdJ44LOAchcxspiYXc84sLqRt3HraduuxGSaCtZkno00tprQgn7PA==",
+        "dependencies": {
+          "FluentMigrator.Abstractions": "3.2.6",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.1",
+          "Microsoft.Extensions.Options": "2.0.1"
+        }
+      },
+      "FluentMigrator.Runner.Db2": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "FdHWHPgJDDwx9RQ4TM7TUlnZSEtv59aG98/T0vXy131GS0Uyb502PN+LV56DJSyFd4ItTpoKOrOqs1N+I/Xnwg==",
+        "dependencies": {
+          "FluentMigrator.Runner.Core": "3.2.6"
+        }
+      },
+      "FluentMigrator.Runner.Firebird": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "QVSEV6uvjmoEmKsZk7F8rS3cc59UHDVDtZHVjoAF8QlsQTbt46i83yGog7l/8XkgCe89tjG8OhlwVkVm6Te5uw==",
+        "dependencies": {
+          "FluentMigrator.Runner.Core": "3.2.6",
+          "Microsoft.Extensions.Options": "2.0.1"
+        }
+      },
+      "FluentMigrator.Runner.Hana": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "70LrKaqAIGPjIQOo9zIKz9YjBzrVmT/AmE4OqtiAOBiiry5DjV2cxWXlrkrrWhs/v6fiQaBmCPKl8/Bm9eNR9Q==",
+        "dependencies": {
+          "FluentMigrator.Runner.Core": "3.2.6"
+        }
+      },
+      "FluentMigrator.Runner.MySql": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "Rb1qp5BhWCZHsfXNsRwGg+SHueaXQgg16cFWojupOl5YAYuiVLNQ5w2+OZ3D4Vqe6WV8UR5Fij90A2zjz/+j4A==",
+        "dependencies": {
+          "FluentMigrator.Runner.Core": "3.2.6"
+        }
+      },
+      "FluentMigrator.Runner.Oracle": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "9PYs5k3u5swbnA3sLO0Gw6r60uIvnbHAfq9xQRW6xJpD8EqlS5wkTxPyUPnZ6sJBCCNzin7nqCMujcLMS5u+kQ==",
+        "dependencies": {
+          "FluentMigrator.Extensions.Oracle": "3.2.6",
+          "FluentMigrator.Runner.Core": "3.2.6"
+        }
+      },
+      "FluentMigrator.Runner.Postgres": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "q9ZNoXYzhjMK+dTN33u9dwvJOyjGK8dWrB9UnniDI8myUjhXrpxian9mXhzsVNT6HEo35PGSxsvbr/kKdW+hmA==",
+        "dependencies": {
+          "FluentMigrator.Runner.Core": "3.2.6"
+        }
+      },
+      "FluentMigrator.Runner.Redshift": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "+mB+ZcvBLKzuGATBSRKrcoOOByHG5SGAckPRTJ8dTNC1XugXGECLGlv0ozkyJ2bxIL/O9XY2V1KWWQRqsLY6Qg==",
+        "dependencies": {
+          "FluentMigrator.Runner.Core": "3.2.6"
+        }
+      },
+      "FluentMigrator.Runner.SqlAnywhere": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "p2lVRFEODRJP4dpNgVhDvfcCnrgs+t2MK8NriESOkBa0Ey9i7H+ny1jSwBsCtwXyDVXboKihz8YOWwZeIXv5CQ==",
+        "dependencies": {
+          "FluentMigrator.Extensions.SqlAnywhere": "3.2.6",
+          "FluentMigrator.Runner.Core": "3.2.6"
+        }
+      },
+      "FluentMigrator.Runner.SQLite": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "b45eS1kFK5IJ8OV7w1xLiJg8xC8tGvDlojEZGjUjTg/TPWDUjY89T4o3SAYhCXT6Q410YKogALgE1l+Vfj/4+g==",
+        "dependencies": {
+          "FluentMigrator.Runner.Core": "3.2.6"
+        }
+      },
+      "FluentMigrator.Runner.SqlServer": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "irOlZ9FuZNkLIZPDAWZxktCIF+VaqrdyaSm5O/ztzOkXVRwURH9eoPQ0Yu2PYbiimBToJA6Nv31J2CO3jVAibQ==",
+        "dependencies": {
+          "FluentMigrator.Extensions.SqlServer": "3.2.6",
+          "FluentMigrator.Runner.Core": "3.2.6",
+          "System.Data.SqlClient": "4.4.3"
+        }
+      },
+      "FluentMigrator.Runner.SqlServerCe": {
+        "type": "Transitive",
+        "resolved": "3.2.6",
+        "contentHash": "aO/3Cohd8SYK4tN2bXbQ/NrlWVvCTU7RnXW4ejxfa276BJhIyMJKSEpWuUuNNFuPonMh6qMWa3jjGEN4e7CNgQ==",
+        "dependencies": {
+          "FluentMigrator.Runner.SqlServer": "3.2.6",
+          "System.Security.Permissions": "4.4.1"
+        }
+      },
+      "Microsoft.CSharp": {
+        "type": "Transitive",
+        "resolved": "4.4.1",
+        "contentHash": "A5hI3gk6WpcBI0QGZY6/d5CCaYUxJgi7iENn1uYEng+Olo8RfI5ReGVkjXjeu3VR3srLvVYREATXa2M0X7FYJA=="
+      },
+      "Microsoft.Extensions.Configuration.Abstractions": {
+        "type": "Transitive",
+        "resolved": "2.0.1",
+        "contentHash": "stGq1c136UUYOsgQuJ5fjiygqZhgt6Kj0pm4iL0qq1MICNgEKTJ4tnbXLkZfrDHDz+olsT2VY9cVv2yshg+m+A==",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection": {
+        "type": "Transitive",
+        "resolved": "2.0.0",
+        "contentHash": "wakg18gHYiUL1pcjjyZuYk6OvDpbSw1E7IWxm78TMepsr+gQ8W0tWzuRm0q/9RFblngwPwo15rrgZSUV51W5Iw==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions": {
+        "type": "Transitive",
+        "resolved": "2.0.0",
+        "contentHash": "eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg=="
+      },
+      "Microsoft.Extensions.Logging": {
+        "type": "Transitive",
+        "resolved": "2.0.1",
+        "contentHash": "FKeB93fwdaEf2EXpxczDjE1CkWoAIrijiG1RZeDyD0OvbC0yjTVp1kCJTLYPrFil9JveJzvgXpL7BMNil9Ht3w==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.1",
+          "Microsoft.Extensions.Options": "2.0.1"
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions": {
+        "type": "Transitive",
+        "resolved": "2.0.1",
+        "contentHash": "DzCKlMdXOysXFDBXgNnxFlpSj5AOdMkUqKEjKT1n+japTxhQ3e3MaGODZGtbIj9ezykRs9oEBGmdSHHfh4oNVA=="
+      },
+      "Microsoft.Extensions.Options": {
+        "type": "Transitive",
+        "resolved": "2.0.1",
+        "contentHash": "gxo2Bgg4D6+uyQz1Wdj1FAcBD3870+t37YjplyQXmjLzPWaoU89AIg3AXBXw4fR9CCdWLputZBLm3YaBx+oDFQ==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        }
+      },
+      "Microsoft.Extensions.Primitives": {
+        "type": "Transitive",
+        "resolved": "2.0.0",
+        "contentHash": "ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        }
+      },
+      "Microsoft.NETCore.Platforms": {
+        "type": "Transitive",
+        "resolved": "2.0.0",
+        "contentHash": "VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ=="
+      },
+      "Microsoft.Win32.Registry": {
+        "type": "Transitive",
+        "resolved": "4.4.0",
+        "contentHash": "dA36TlNVn/XfrZtmf0fiI/z1nd3Wfp2QVzTdj26pqgP9LFWq0i1hYEUAW50xUjGFYn1+/cP3KGuxT2Yn1OUNBQ==",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "System.Security.AccessControl": "4.4.0",
+          "System.Security.Principal.Windows": "4.4.0"
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni": {
+        "type": "Transitive",
+        "resolved": "4.4.0",
+        "contentHash": "A8v6PGmk+UGbfWo5Ixup0lPM4swuSwOiayJExZwKIOjTlFFQIsu3QnDXECosBEyrWSPryxBVrdqtJyhK3BaupQ==",
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": {
+        "type": "Transitive",
+        "resolved": "4.4.0",
+        "contentHash": "LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg=="
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": {
+        "type": "Transitive",
+        "resolved": "4.4.0",
+        "contentHash": "38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ=="
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": {
+        "type": "Transitive",
+        "resolved": "4.4.0",
+        "contentHash": "YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA=="
+      },
+      "System.ComponentModel.Annotations": {
+        "type": "Transitive",
+        "resolved": "4.4.1",
+        "contentHash": "ToiYqSCioqhtspq2O/jYKtyTC/T0uwWHBTYlzCi6PRbSSHArN1IaRWeHffDamvms5sye5FDUWCfNZgubQpNRsA=="
+      },
+      "System.Data.SqlClient": {
+        "type": "Transitive",
+        "resolved": "4.4.3",
+        "contentHash": "D1hEOS1oPLJ6WcGCzpTWe8SauWVxnDoDTUWhv5XCNdRm/QeSUk4BQ3ZDe7BH+zNVHDBkPYjVzpVjnCl43eOSGg==",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.4.0",
+          "System.Security.Principal.Windows": "4.4.0",
+          "System.Text.Encoding.CodePages": "4.4.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "System.Memory": {
+        "type": "Transitive",
+        "resolved": "4.5.3",
+        "contentHash": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA=="
+      },
+      "System.Runtime.CompilerServices.Unsafe": {
+        "type": "Transitive",
+        "resolved": "4.6.0",
+        "contentHash": "HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw=="
+      },
+      "System.Security.AccessControl": {
+        "type": "Transitive",
+        "resolved": "4.4.0",
+        "contentHash": "2NRFPX/V81ucKQmqNgGBZrKGH/5ejsvivSGMRum0SMgPnJxwhuNkzVS1+7gC3R2X0f57CtwrPrXPPSe6nOp82g==",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "System.Security.Principal.Windows": "4.4.0"
+        }
+      },
+      "System.Security.Permissions": {
+        "type": "Transitive",
+        "resolved": "4.4.1",
+        "contentHash": "l8IxQ9mEAkKv85uoEcjcYhrh+yTLZtLgNqb2T7QChTdKXh45EUnmKd+Ckdt1D+VYW2dk2Pb5MT+0zwQ74Jd2Xg==",
+        "dependencies": {
+          "System.Security.AccessControl": "4.4.0"
+        }
+      },
+      "System.Security.Principal.Windows": {
+        "type": "Transitive",
+        "resolved": "4.4.0",
+        "contentHash": "pP+AOzt1o3jESOuLmf52YQTF7H3Ng9hTnrOESQiqsnl2IbBh1HInsAMHYtoh75iUYV0OIkHmjvveraYB6zM97w==",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        }
+      },
+      "System.Text.Encoding.CodePages": {
+        "type": "Transitive",
+        "resolved": "4.4.0",
+        "contentHash": "6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        }
+      },
+      "System.ValueTuple": {
+        "type": "Transitive",
+        "resolved": "4.4.0",
+        "contentHash": "BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ=="
+      }
+    }
+  }
+}
