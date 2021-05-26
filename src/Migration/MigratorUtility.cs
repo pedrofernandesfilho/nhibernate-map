@@ -5,7 +5,7 @@ using System;
 
 namespace Migration
 {
-    class MigratorUtility
+    public class MigratorUtility
     {
         private readonly string connectionString;
 
