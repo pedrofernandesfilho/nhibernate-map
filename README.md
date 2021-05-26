@@ -1,5 +1,13 @@
 # nhibernate-map
 
+## Docker-compose
+
+Postgres database.
+
+```bash
+docker-compose up -d
+```
+
 ## Migrations
 
 ```bash
