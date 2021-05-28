@@ -12,23 +12,49 @@ namespace WebApplication1.Data.Mapping
         {
             Table(tableName);
 
-            Id(x => x.Id, model =>
+            Id(field => field.Id, mapping =>
             {
-                model.Column("ID_FIELD");
-                model.Generator(Generators.Sequence, m => m.Params(new { sequence = "SEQ_FIELD" }));
+                mapping.Column("ID_FIELD");
+                mapping.Generator(Generators.Sequence, m => m.Params(new { sequence = "SEQ_FIELD" }));
             });
 
-            Property(x => x.Name, model =>
+            Property(field => field.Name, mapping =>
             {
-                model.Column("NM_FIELD");
-                model.NotNullable(true);
+                mapping.Column("NM_FIELD");
+                mapping.NotNullable(true);
             });
 
-            Property(x => x.Code, model =>
+            Property(field => field.Code, mapping =>
             {
-                model.Column("CD_FIELD");
-                model.NotNullable(true);
+                mapping.Column("CD_FIELD");
+                mapping.NotNullable(true);
             });
+
+            //Property(field => field.DisplayOrder, mapping =>
+            //{
+            //    mapping.Formula("SELECT NU_DISPORDER FROM TB_PRODUCT_FIELD WHERE ID_PRODUCT = ? AND ID_FIELD = ?");
+            //});
+
+            //Join("TB_FIELD", mapping =>
+            //{
+            //    mapping.Key(km =>
+            //    {
+            //        // km.Column(colMapper => colMapper.)
+            //        km.Column("ID_FIELD");
+            //    });
+
+            //    mapping.Property(field => field.Code, mapper =>
+            //    {
+            //        mapper.Column("CD_FIELD");
+            //        mapper.NotNullable(true);
+            //    });
+
+            //    mapping.Property(field => field.Name, mapper =>
+            //    {
+            //        mapper.Column("NM_FIELD");
+            //        mapper.NotNullable(true);
+            //    });
+            //});
         }
     }
 }

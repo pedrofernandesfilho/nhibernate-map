@@ -22,6 +22,7 @@ namespace IntegrationTests
         [SetUp]
         public virtual async Task SetUpAsync()
         {
+            Session.Clear();
             if (CleanDbBetweenTests)
                 await Database.CleanAsync();
         }

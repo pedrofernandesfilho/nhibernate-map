@@ -33,6 +33,8 @@ namespace IntegrationTests.Data
             Session.Clear();
             const string productName = "XBox";
             var productToPersist = new Product(productName);
+            fieldsOnDatabase[1].DisplayOrder = 1;
+            fieldsOnDatabase[0].DisplayOrder = 2;
             productToPersist.AddField(fieldsOnDatabase[0]);
             productToPersist.AddField(fieldsOnDatabase[1]);
             await Repository.InsertAsync(productToPersist);
